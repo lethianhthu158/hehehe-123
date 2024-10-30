@@ -1,0 +1,42 @@
+.style-board-game{
+    /* position: relative;
+    width: 100%;
+    left: 15%;
+   margin-top: 15px; */
+   display: grid;
+   grid-template-columns: 80% 20%;
+   
+
+
+}
+.style-posision-board{
+    padding-left: 5px;
+    padding-top:5px;
+
+}
+.StyleX{
+    color: red;
+    box-shadow: 10px 5px 15px rgb(195, 137, 137);
+
+}
+.StyleO{
+    color: blue;
+    box-shadow: 10px 5px 15px rgb(121, 121, 194);
+}
+.style-button-reset {
+    border: 2px solid lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin: 5px 15px;
+    font-weight: 500;
+    font-size: 25px;
+   
+}
+.style-button-reset:hover {
+    background: linear-gradient(90deg, rgba(60,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+    color: white;
+
+}

@@ -1,0 +1,37 @@
+.style-form-resize {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    max-width: 300px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+    
+}
+
+.style-label-size {
+    font-weight: bold; 
+}
+
+.style-select-size {
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+}
+
+.style-submit {
+    padding: 10px; 
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    font-size: 16px; 
+}
+
+.style-submit:hover {
+    background-color: #0056b3; 
+}

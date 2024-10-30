@@ -1,0 +1,80 @@
+.Background-Popup{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+
+}
+.Container-Popup{
+ 
+    background-color: white;
+    width: 450px;
+    height: 100px;
+    border-radius: 5px;
+    
+    box-shadow: 5px 5px 10px red;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    animation: flash 5s infinite;
+
+}
+@keyframes flash {
+    0%, 100% {
+        box-shadow: 0px 0px 30px red; /* Tình trạng ban đầu */
+    }
+    25% {
+        box-shadow: 0px 0px 30px rgb(21, 69, 164);/* Tình trạng chớp tắt */
+    }
+    50% {
+        box-shadow: 0px 0px 30px rgb(162, 59, 185);/* Tình trạng chớp tắt */
+    }
+    75% {
+        box-shadow: 0px 0px 30px rgb(176, 189, 59);/* Tình trạng chớp tắt */
+    }
+    
+}
+.Noti-winner{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px red;
+    animation: flashText 5s infinite;
+
+}
+@keyframes flashText {
+    0%, 100% {
+        text-shadow: 0px 0px 30px red; /* Tình trạng ban đầu */
+    }
+    25% {
+        text-shadow: 0px 0px 30px rgb(21, 69, 164);/* Tình trạng chớp tắt */
+    }
+    50% {
+        text-shadow: 0px 0px 30px rgb(162, 59, 185);/* Tình trạng chớp tắt */
+    }
+    75% {
+        text-shadow: 0px 0px 30px rgb(176, 189, 59);/* Tình trạng chớp tắt */
+    }
+    
+}
+.style-button-replay {
+    border: 2px solid lightcoral;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+   
+}
+.style-button-replay:hover {
+    background: linear-gradient(90deg, rgba(60,58,180,1) 0%, rgba(253,29,29,1) 100%, rgba(252,176,69,1) 100%);
+    color: white;
+
+}
